@@ -2,8 +2,8 @@
 prgnum=`kdialog --menu "programs:" 1 "CPHC" 2 "...(MORE COMMING SOON)"`
 cd ~
 if [[ $prgnum == "1" ]]; then
-  mkdir LinuxCrafts
-  cd LinuxCrafts
+  mkdir SimpleProgramStudios
+  cd SimpleProgramStudios
   wget https://raw.githubusercontent.com/LinuxCrafts/Custom-Protocol-handler-creator/master/ProtocolCreator.sh
   chmod 755 ProtocolCreator.sh
   mv ProtocolCreator.sh ProtocolCreator
