@@ -2,5 +2,6 @@
 xmessage "the program will fail if not run in terminal"
 xmessage "installing kdialog[ENTER PASSWORD or run as ROOT]" &
 sudo su
-apt-get install kde-full
+apt-get install kdialog
+kdialog --msgbox "if you see this, the \"libs\" are installed SUCESSFULLY"
 sleep 60
