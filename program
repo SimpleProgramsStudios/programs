@@ -1,0 +1,14 @@
+#!/bin/bash
+prgnum=`kdialog --menu "programs:" 1 "CPHC" 2 "...(MORE COMMING SOON)"`
+cd ~
+if [[ $prgnum == "1" ]]; then
+  mkdir LinuxCrafts
+  cd LinuxCrafts
+  wget https://raw.githubusercontent.com/LinuxCrafts/Custom-Protocol-handler-creator/master/ProtocolCreator.sh
+  chmod 755 ProtocolCreator.sh
+  mv ProtocolCreator.sh ProtocolCreator
+  echo "RUNNING PROGRAM"
+  ./ProtocolCreator
+elif [[ $prgnum == "2" ]]; then
+  echo "MORE COMMING SOON"
+fi
