@@ -1,4 +1,5 @@
 #!/bin/bash
+#COPYLEFT (C) SPS INC. 2018
 prgnum=`kdialog --menu "programs:" 1 "CPHC" 2 "...(MORE COMMING SOON)"`
 cd ~
 if [[ $prgnum == "1" ]]; then
@@ -12,4 +13,4 @@ if [[ $prgnum == "1" ]]; then
 elif [[ $prgnum == "2" ]]; then
   echo "MORE COMMING SOON"
 fi
-# 15 lines of code
+# 16 lines of code
